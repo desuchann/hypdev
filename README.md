@@ -9,7 +9,7 @@ Bootcamp agenda:
 - Error handling and debugging (I am here)
 - OOP
 - Git
-- NLP
+- Natural Language Processing (a subset of AI)
 - Network Protocols
 - Web design i.e. HTML, CSS, Bootstrap and Django
 - Relational databases and SQL
