@@ -6,7 +6,8 @@ Bootcamp agenda:
 - 
 - The basics e.g. pseudocode, flow control and data structures
 - rwa files
-- Error handling and debugging (I am here)
+- Error handling and debugging
+- 2D data structures (I am here)
 - OOP
 - Git
 - Natural Language Processing (a subset of AI)
