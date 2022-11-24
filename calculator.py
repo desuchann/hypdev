@@ -83,4 +83,4 @@ elif choice == '2':
         except FileNotFoundError:
             print(f'{file} does not exist.')
     for line in f:
-        calculate(line.strip("\n"))
+        calculate(line.strip("\n")) 
