@@ -32,7 +32,7 @@ def reg_user():
     # check the password was entered correctly
     while not pwd == pwd2:
         print('The password entries did not match.')
-        pwd = input('Please supply the password: ')
+        pwd = input('Please supply the password: ') 
         pwd2 = input('Please confirm the password: ')
 
     # check if the user already exists
