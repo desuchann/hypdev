@@ -8,8 +8,8 @@ Bootcamp agenda
 - rwa files
 - Error handling and debugging
 - 2D data structures
-- OOP <i>(I am here)</i>
-- Git
+- OOP
+- Git <i>(I am here)</i>
 - Natural Language Processing (a subset of AI)
 - Network Protocols
 - Web design i.e. HTML, CSS, Bootstrap and Django
