@@ -9,8 +9,8 @@ Bootcamp agenda
 - Error handling and debugging
 - 2D data structures
 - OOP
-- Git <i>(I am here)</i>
-- Natural Language Processing (a subset of AI)
+- Git
+- Natural Language Processing (a subset of AI) <i>(I am here)</i>
 - Network Protocols
 - Web design i.e. HTML, CSS, Bootstrap and Django
 - Relational databases and SQL
