@@ -30,7 +30,7 @@ try:
           [row for row in grades])
 
     c.execute('''UPDATE python_programming SET grade = 65 WHERE id = 55''')
-    _status(c, 'State after replacing Carl Davis\' grade: ')
+    _status(c, 'State after replacing Carl Davis\' grade: ') 
 
     c.execute('''DELETE FROM python_programming WHERE id = 66''')
     _status(c, 'State after deleting Dennis Fredrickson\'s row: ')
