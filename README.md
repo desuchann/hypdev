@@ -13,5 +13,5 @@ Bootcamp agenda
 - Natural Language Processing (a subset of AI)
 - Network Protocols
 - SQL and SQLite
-- How to design relational databases <i>(I am here)</i>
+- Relational database normalisation <i>(I am here)</i>
 - Web design i.e. HTML, CSS, Bootstrap and Django
