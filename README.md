@@ -1,6 +1,6 @@
 Overview
 -
-A repository in which to deposit highlights of what I created while on the Hyperion Dev Software engineering bootcamp (1st Nov 2022 to present).
+A repository in which to deposit highlights of what I created while on the <a href = "https://www.hyperiondev.com/bootcamps/software-engineering/ ">Hyperion Dev Software Engineering bootcamp</a> (1st Nov 2022 to present).
 
 Bootcamp agenda
 - 
