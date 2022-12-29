@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Set the tab title and link the stylesheet -->
+    <title>Justine's Website</title>
+    <link rel="stylesheet" href="{% static 'app-css.css' %}">
+</head>
+
+<body>
+
+    <h1 class="banner">Bonus page!</h1>
+    <br>
+    <div style="text-align: center;">
+        In lieu of something more interesting, find below a link to the most important video on the internet!</div>
+    <div>
+        <br>
+        <img class='qr' src="{% static 'qr.jpg' %}" title="I promise this isn't phishing"
+            alt="QR code isn't rendering :(">
+    </div>
+    <br>
+    <table class="moreMe">
+        <tr>
+            <td><a href="{% url 'home' %}">Go home</a></td>
+        </tr>
+    </table>
+</body>

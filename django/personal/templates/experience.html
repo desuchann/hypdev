@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Set the tab title and link the stylesheet -->
+    <title>Justine's Website</title>
+    <link rel="stylesheet" href="{% static 'app-css.css' %}">
+</head>
+
+<body>
+
+    <div class="banner">
+        <!-- page header -->
+        <h1><i>My experience</i></h1>
+    </div>
+    <p style="text-align:center;">Find below details of my career path thus far.</p>
+    <table class="experienceTable"><!-- table listing my experience/career -->
+        <tr>
+            <th>My Skills</th>
+            <th>My Education</th>
+            <th>My Work Experience</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>HTML and CSS</li>
+                    <li>React and Typescript</li>
+                    <li>Microsoft Office</li>
+                </ul>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Problem Solving</li>
+                    <li>Growth Mindset</li>
+                    <li>Multitasking</li>
+                    <li>Communication</li>
+                    <li>Accountability</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>HyperionDev Scholarship Bootcamp - University Accreditation TBC</li>
+                    <li>Bristol University - 2:1 Physics BSc</li>
+                    <li>Charles Darwin School, Bromley</li>
+                    <ul>
+                        <li>A Level Maths - A</li>
+                        <li>A Level Further Maths - A</li>
+                        <li>A Level Physics - B</li>
+                        <li>5A*, 5A GCSEs</li>
+                    </ul>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>DevOps Engineer, JP Morgan</li>
+                    <li>TechOps Consultant, FDM Group</li>
+                    <li>Volunteer Food Waste Cook, Just Eat It</li>
+                    <li>Open Days Helper, Bristol University</li>
+                    <li>Customer Assistant, Sainsbury's</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <p>
+    <table class="moreMe">
+        <th>More Me</th>
+        <tr>
+            <td><a href="https://github.com/desuchann?tab=repositories" target="_blank">Github Repositories</a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/justineodegbami/" target="_blank">LinkedIn Page</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://media.licdn.com/dms/document/C4E2DAQELfG-sMM8VkQ/profile-treasury-document-pdf-analyzed/0/1672166345085?e=1672876800&v=beta&t=Sxn2S5e3hM41Xp4tvJMgZvJBDhkQT3g0Zvw6rQs2X94"
+                    target="_blank"> CV</a>
+        </tr>
+        <tr>
+            <td><a href="{% url 'home' %}">Home</a></td>
+        </tr>
+    </table>
+    </p>
+</body>
+
+</html>

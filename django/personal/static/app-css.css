@@ -1,0 +1,92 @@
+/* to be inherited everywhere */
+body {
+    font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0 4% 2%;
+    background-color: lightyellow;
+}
+
+/* just for the banner across the top */
+.banner {
+    width: 100%;
+    background: rgb(176, 206, 116);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.sparkle {
+    width: 75px;
+    background: none;
+    margin: 0 0 0;
+    padding: 0;
+}
+
+.contactDetails {
+    background: lemonchiffon;
+    width: 100%;
+}
+
+/* into the body of the page */
+img {
+    width: 200px;
+    margin: 0 20px 2px 0;
+    padding: 3px;
+    background-color: yellowgreen;
+}
+
+.mug {
+    float: left;
+}
+
+.qr {
+    display: block;
+    margin: 0 auto 0;
+    background-color: white;
+}
+
+.fdmList {
+    display: inline-block;
+    list-style-position: inside;
+    margin-left: 35%;
+}
+
+/* consistent styling for all tables */
+table {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: rgb(176, 206, 116);
+    border-width: 1px;
+}
+
+table th {
+    background-color: rgb(176, 206, 116);
+    color: white;
+}
+
+table tr {
+    background-color: lemonchiffon;
+    vertical-align: text-top;
+}
+
+table td {
+    border-style: solid;
+    border-color: rgb(176, 206, 116);
+    border-width: 1px;
+}
+
+/* individual table styling */
+.experienceTable {
+    width: 100%;
+}
+
+.moreMe {
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+.moreMe td {
+    padding: 1px 5px 1px;
+}

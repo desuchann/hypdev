@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Set the tab title and link the stylesheet -->
+    <title>Justine's Website</title>
+    <link rel="stylesheet" href="{% static 'app-css.css' %}">
+</head>
+
+<body>
+    <div class="banner">
+        <!-- page header -->
+        
+        <h1><img class='sparkle' src="{% static 'sparkle.gif' %}"><i>Welcome to my portfolio!   </i><img class='sparkle' src="{% static 'sparkle.gif' %}"></h1>
+        
+        <h4 class="contactDetails">
+            <!-- contact details -->
+            | Docklands, London | 07749892XXX | justineaodegbami@outlook.com |
+        </h4>
+    </div>
+    <div>
+        <h4>Contents</h4>
+        <ul style="list-style-type: '> '">
+            <li><a href="{% url 'experience' %}">Experience</a></li>
+        </ul>
+    </div>
+    <br>
+    <!-- a picture of me with some alt text and a hover over -->
+    <img class='mug' src="{% static 'me.jpg' %}" title="Me on graduation day!" alt="A picture of me on graduation day">
+    <p><!-- intro section -->
+    <h3>Who am I?</h3>
+    My name is Justine Odegbami and I've been working as a DevOps engineer for over four years. I like long walks on the
+    beach, martial arts, and I'm undertaking the Hyperion Dev Software Engineering bootcamp in the hope of pivoting into
+    more of a coding-heavy role!
+    </p>
+    <p><!-- experience section -->
+    <h3>What is my experience?</h3>
+    I studied Physics at Bristol University which included a few coding modules in C and Matlab. I then joined <a
+        href="https://www.fdmgroup.com/services/technical-services/technical-operations/" target="_blank">the
+        TechOps stream at FDM</a> which trained me in various skills needed to be a competent DevOps engineer, e.g.:
+    <div class="fdmListDiv">
+        <ul class="fdmList">
+            <li>Teamwork</li>
+            <li>Presenting</li>
+            <li>Communication</li>
+            <li>Powershell</li>
+            <li>ITIL</li>
+            <li>SQL</li>
+            <li>Unix</li>
+        </ul>
+    </div>
+    </p>
+    <article><!-- personal section -->
+        <h3>What motivates me?</h3>
+        <p>Resolving issues for good! </p>
+        <p>From a DevOps perspective, this means getting to the bottom of complex issues by debugging the issue,
+            exactly pinpointing the root cause, and providing suggestions on how to prevent it going forward plus
+            introducing telemetry where possible in the hope of henceforth detecting it before it becomes an issue.
+        </p>
+        <p>To build optimal code, Software Engineers should always write code with an SRE viewpoint i.e. building
+            extremely supportable code with clear logging and error handling without compromising on readability and
+            end user experience.</p>
+        <h3>What would I most like to do?</h3>
+        <p>
+            A challenging software engineering role where I can freely flex my creative muscles and consistently
+            produce top-tier work!
+        </p>
+    </article>
+    <br>
+    <table class="moreMe">
+        <th>More Me</th>
+        <tr>
+            <td><a href="https://github.com/desuchann?tab=repositories" target="_blank">Github Repositories</a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/justineodegbami/" target="_blank">LinkedIn Page</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://media.licdn.com/dms/document/C4E2DAQELfG-sMM8VkQ/profile-treasury-document-pdf-analyzed/0/1672166345085?e=1672876800&v=beta&t=Sxn2S5e3hM41Xp4tvJMgZvJBDhkQT3g0Zvw6rQs2X94"
+                    target="_blank"> CV</a>
+        </tr>
+        <tr>
+            <td><a href="{% url 'filler' %}">Bonus Page</a>
+        </tr>
+    </table>
+</body>
+
+</html>
