@@ -14,4 +14,4 @@ Bootcamp agenda
 - Network Protocols
 - SQL and SQLite
 - Relational database normalisation
-- Web design i.e. HTML, CSS, Bootstrap and Django <i>(I am here)</i>
+- Web design i.e. HTML, CSS, Bootstrap and Django
