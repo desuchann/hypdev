@@ -1,0 +1,135 @@
+/* just for the banner */
+.banner {
+    background-color: red;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.banner a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner a:hover {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+/* the checkout form */
+.checkout {
+    background-color: red;
+    border-radius: 1em 1em 0 0;
+}
+
+.checkout input,
+textarea {
+    width: 100%;
+    max-height: 200px;
+}
+
+.checklist input {
+    width: auto;
+}
+
+form {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.logo {
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+    padding: 0 25px 15px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* item captions */
+h5 {
+    text-align: center;
+    font-family: system-ui;
+}
+
+/* item images */
+img {
+    width: 100%;
+    background-color: red;
+    padding: 5px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* item hover effects */
+.hover-div a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-div a h3 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 45% 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.hover-div:hover a h3 {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.hover-div button {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 5px;
+    border: none;
+
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+}
+
+.hover-div:hover button {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}

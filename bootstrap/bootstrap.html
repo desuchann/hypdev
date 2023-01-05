@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!-- style sheets and tab name -->
+    <title>get ur bootstrap on</title>
+    <link href="bs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="banner"><!-- click the banner to refresh the page -->
+        <a href=''>
+            <h1><i>Bootstrap Store</i></h1>
+        </a>
+    </div>
+    <div class="row"><!-- 4 items per row generally, 2 per row on small screens -->
+        <div class="col-md-3 col-6 hover-div"><!-- All the hover styling under hover-div-->
+            <a href="bootstrap.html#bottom"><!-- Go to the form at the bottom of the page -->
+                <img src="items/dslayer.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Demon Slayer Hoodie - £45</h5>
+        </div>
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/naruto.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Naruto Hoodie - £45</h5>
+        </div>
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/tghoul.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Tokyo Ghoul Tee - £20</h5>
+        </div>
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/dball.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Dragonball Salt Bae Beanie - £15</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/smoon.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Sailor Moon Choker - £8</h5>
+        </div>
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/bleach.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Ichigo Cosplay Wig - £25</h5>
+        </div>
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/kunai.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Naruto Kunai - £20</h5>
+        </div>
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/onepiece.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>One Piece Funko Pop - £25</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/pokemon.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Pokemon Plush - £25</h5>
+        </div>
+        <div class="col-md-3 col-6 hover-div">
+            <a href="bootstrap.html#bottom">
+                <img src="items/totoro.jpg" />
+                <h3><button>Add to Cart</button></h3>
+            </a>
+            <h5>Totoro Plush - £25</h5>
+        </div>
+    </div>
+    <br>
+    <a name="bottom"></a> <!-- Marking where the form starts for easy redirection-->
+    <div class="row">
+        <div class="col-2">
+            <img src="items/boot.jpg" class="logo" title="Bootstrap Store Logo"> <!-- My homemade logo B) -->
+        </div>
+        <div class="col-8 checkout">
+            <form><!-- Enter details for "checkout", most are enforced -->
+                <label>First Name</label><br>
+                <input type="text" required><br>
+                <label>Last Name</label><br>
+                <input type="text" required><br>
+                <label>Email</label><br>
+                <input type="text" required><br>
+                <label>Address</label><br>
+                <textarea rows="4" required></textarea><br>
+                <label>Post Code</label><br>
+                <input type="text" required><br>
+                <label>Phone Number</label><br>
+                <input type="tel"><br><br>
+                <div class="checklist">
+                    <input type="submit" value="Checkout"><br><br>
+                    <label for="correspondence">Opt out of future correspondence including our newsletter</label>
+                    <input type="checkbox" name="correspondence"><br>
+                    <label for="pdpr">Agree to pdpr stuff since you're giving personal info</label>
+                    <input type="checkbox" name="pdpr" required><br><br>
+                </div>
+            </form>
+        </div>
+        <div class="col-2">
+            <img src="items/boot.jpg" class="logo" title="Bootstrap Store Logo">
+        </div>
+    </div>
+</body>
+
+</html>
